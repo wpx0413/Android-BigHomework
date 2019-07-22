@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">极简短视频</string>
+    <string name="refresh_btn">刷新</string>
+    <string name="record_btn">拍摄</string>
+    <string name="post_btn">发布</string>
+    <string name="mine_btn">我的</string>
+
+    <string name="play">播放</string>
+    <string name="pause">暂停</string>
+
+    <string name="select_image">选择封面</string>
+    <string name="select_video">选择视频</string>
+    <string name="post">上传</string>
+
+    <string name="begin_record">开始</string>
+    <string name="stop_record">停止</string>
+    <string name="face_btn">翻转</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <SurfaceView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="auto" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+
+
+        <Button
+            android:id="@+id/btn_record"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/begin_record"
+            android:textSize="14sp"
+            android:layout_marginRight="1dp"/>
+
+        <Button
+            android:id="@+id/btn_facing"
+            android:textSize="14sp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/face_btn" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
